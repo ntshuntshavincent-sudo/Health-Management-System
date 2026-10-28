@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green:       #00A86B;
+  --green-dark:  #007A4D;
+  --green-light: #E6F7F1;
+  --green-mid:   #CCF0E1;
+  --red:         #E53E3E;
+  --red-light:   #FFF5F5;
+  --amber:       #D97706;
+  --amber-light: #FFFBEB;
+  --blue:        #2563EB;
+  --blue-light:  #EFF6FF;
+  --bg:          #F7F8FA;
+  --surface:     #FFFFFF;
+  --border:      #E4E7EC;
+  --border-dark: #C9D1DC;
+  --text-1:      #0F1923;
+  --text-2:      #4B5563;
+  --text-3:      #9CA3AF;
+  --sidebar-w:   240px;
+  --header-h:    64px;
+  --radius:      10px;
+  --radius-lg:   16px;
+  --shadow-sm:   0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+  --shadow:      0 4px 12px rgba(0,0,0,.08);
+  --shadow-lg:   0 8px 30px rgba(0,0,0,.12);
+  --font:        'DM Sans', sans-serif;
+  --mono:        'DM Mono', monospace;
+}
+
+html, body, #root { height: 100%; }
+body { font-family: var(--font); font-size: 15px; color: var(--text-1); background: var(--bg); -webkit-font-smoothing: antialiased; line-height: 1.5; }
+input, select, textarea, button { font-family: var(--font); }
+button { cursor: pointer; border: none; background: none; }
+a { text-decoration: none; color: inherit; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-dark); border-radius: 99px; }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); }
+.badge { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 99px; font-size: 12px; font-weight: 500; letter-spacing: .01em; }
+.badge-green  { background: var(--green-light);  color: var(--green-dark); }
+.badge-amber  { background: var(--amber-light);  color: var(--amber); }
+.badge-red    { background: var(--red-light);    color: var(--red); }
+.badge-gray   { background: var(--bg); color: var(--text-2); border: 1px solid var(--border); }
+.badge-blue   { background: var(--blue-light);   color: var(--blue); }
+
+.btn { display: inline-flex; align-items: center; gap: 7px; padding: 9px 18px; border-radius: var(--radius); font-size: 14px; font-weight: 500; transition: all .15s; }
+.btn-primary { background: var(--green); color: #fff; }
+.btn-primary:hover { background: var(--green-dark); }
+.btn-outline { background: transparent; color: var(--text-1); border: 1px solid var(--border); }
+.btn-outline:hover { background: var(--bg); border-color: var(--border-dark); }
+.btn-danger { background: var(--red-light); color: var(--red); }
+.btn-danger:hover { background: #FED7D7; }
+.btn:disabled { opacity: .5; pointer-events: none; }
+
+.field { display: flex; flex-direction: column; gap: 5px; }
+.field label { font-size: 13px; font-weight: 500; color: var(--text-2); }
+.field input, .field select, .field textarea { padding: 9px 13px; border: 1px solid var(--border); border-radius: var(--radius); font-size: 14px; color: var(--text-1); background: var(--surface); outline: none; transition: border-color .15s, box-shadow .15s; }
+.field input:focus, .field select:focus, .field textarea:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(0,168,107,.12); }
+.field textarea { resize: vertical; min-height: 80px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.fade-up { animation: fadeUp .25s ease both; }
+@keyframes pulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: .6; } }
+.pulse-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; animation: pulse 2s ease-in-out infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner { width: 24px; height: 24px; border: 2.5px solid var(--border); border-top-color: var(--green); border-radius: 50%; animation: spin .7s linear infinite; }

@@ -1,0 +1,71 @@
+copied -> backend\package-lock.json
+copied -> frontend\src\components\Layout.js
+copied -> frontend\src\context\AuthContext.js
+copied -> frontend\src\pages\Providers.js
+copied -> frontend\src\index.css
+copied -> deployment\nginx.conf
+copied -> backend\src\middleware\security.js
+copied -> frontend\src\pages\Appointments.js
+copied -> frontend\src\components\Sidebar.js
+copied -> backend\src\db\pool.js
+copied -> frontend\src\pages\Dashboard.js
+copied -> frontend\src\api\client.js
+copied -> backend\src\middleware\auth.js
+copied -> frontend\src\pages\Kiosk.js
+copied -> frontend\src\pages\Patients.js
+copied -> backend\src\middleware\sanitise.js
+copied -> frontend\src\pages\Notes.js
+copied -> frontend\src\pages\Login.js
+copied -> backend\src\middleware\popia.js
+copied -> frontend\src\App.js
+copied -> docs\POPIA_COMPLIANCE.md
+copied -> deployment\deploy.sh
+copied -> deployment\ecosystem.config.js
+  C:\Users\LENOVO\Downloads\MY SYSTEM\files (1).zip [10322]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\files (2).zip [23380]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\files (3).zip [15237]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\HealthRecord_DoH_Pitch.pptx [375939]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\patient-system.tar.gz [20684]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_extract.out.txt [18478]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_extract.ps1 [1190]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_inspect.out.txt [3944]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_inspect.ps1 [920]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pg1.txt [361]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pg3.out.txt [532]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pg3.ps1 [1023]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pg4.out.txt [5065]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pg4.ps1 [1005]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pgtest.out.txt [1132]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pgtest.ps1 [1024]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pgtest2.out.txt [3641]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pgtest2.ps1 [590]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pptx.out.txt [12110]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_pptx.ps1 [550]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_probe.txt [11]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_scaffold.out.txt [0]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_scaffold.ps1 [2768]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_untar.out.txt [2356]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\_untar.ps1 [447]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\backend\package-lock.json [43219]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\backend\src\db\pool.js [573]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\backend\src\middleware\auth.js [972]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\backend\src\middleware\popia.js [5022]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\backend\src\middleware\sanitise.js [2419]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\backend\src\middleware\security.js [4907]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\deployment\deploy.sh [8087]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\deployment\ecosystem.config.js [1880]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\deployment\nginx.conf [5381]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\docs\POPIA_COMPLIANCE.md [6196]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\App.js [1688]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\index.css [4225]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\api\client.js [2934]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\components\Layout.js [595]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\components\Sidebar.js [3946]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\context\AuthContext.js [968]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\pages\Appointments.js [9854]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\pages\Dashboard.js [6557]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\pages\Kiosk.js [8774]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\pages\Login.js [3784]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\pages\Notes.js [9243]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\pages\Patients.js [9725]
+  C:\Users\LENOVO\Downloads\MY SYSTEM\frontend\src\pages\Providers.js [4737]

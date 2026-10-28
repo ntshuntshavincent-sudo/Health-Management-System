@@ -1,0 +1,10 @@
+﻿postgres PIDs: 944,1524,3880,4824,5812,7780,8204,8248,8640,9032
+listening: :::1357 ; 0.0.0.0:1357
+--- postgresql.conf (active lines) ---
+listen_addresses = '*'
+port = 1357
+--- pg_hba.conf (active lines) ---
+host    all             all             127.0.0.1/32            scram-sha-256
+host    all             all             ::1/128                 scram-sha-256
+host    replication     all             127.0.0.1/32            scram-sha-256
+host    replication     all             ::1/128                 scram-sha-256

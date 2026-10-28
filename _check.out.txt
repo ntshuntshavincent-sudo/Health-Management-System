@@ -1,0 +1,30 @@
+﻿node_modules exists: False
+--- package.json dependencies ---
+{
+  "name": "healthrecord-api",
+  "version": "2.0.0",
+  "private": true,
+  "description": "HealthRecord API â€” ID-based digital patient management for South African hospitals and clinics (POPIA-aligned)",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node src/db/migrate.js",
+    "seed": "node src/db/seed.js",
+    "db:setup": "node src/db/migrate.js && node src/db/seed.js",
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "healthcare",
+    "patient-management",
+    "popia",
+    "department-of-health",
+    "south-africa"
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
